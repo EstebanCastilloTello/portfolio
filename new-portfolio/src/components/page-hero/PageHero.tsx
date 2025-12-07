@@ -39,11 +39,13 @@ const PageHero: React.FunctionComponent<PageHeroProps> = ({
           <span>{topIcon}</span>
           <p>{topText}</p>
         </div>
-        <AnimatedText
-          text={pageHeading}
-          className={theme.isDarkmode ? "headingDark" : "heading"}
-          once
-        />
+        <div className="notranslate">
+          <AnimatedText
+            text={pageHeading}
+            className={theme.isDarkmode ? "headingDark" : "heading"}
+            once
+          />
+        </div>
         <div className="extraTextCont">
           <p className={theme.isDarkmode ? "extraTextDark" : "extraText"}>
             {extraText}

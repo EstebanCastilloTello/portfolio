@@ -37,7 +37,11 @@ const AnimatedText: React.FunctionComponent<AnimatedTextProps> = ({
       transition={{
         staggerChildren: isMobile && staggerValue ? staggerValue : 0.06,
       }}
-      className={className}
+      // AQUÍ ESTÁ EL CAMBIO CLAVE:
+      // Agregamos "notranslate" para que Google ignore este bloque
+      className={`${className} notranslate`} 
+      // Opcional: También puedes agregar este atributo para navegadores modernos
+      translate="no"
     >
       {text.split(" ").map((word, index) => (
         <span key={index} style={{ display: "inline-block" }}>
