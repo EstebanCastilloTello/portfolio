@@ -64,14 +64,14 @@ If you want to run this project locally, follow these steps:
   ├── context/      # React Context (Theme management)
   ├── data/         # Static data for projects and bio
   └── styles/       # SCSS global styles and variables
-
+```
 ## 📫 Contact
 
 Feel free to reach out if you want to collaborate on a project or just say hi!
 
 * **Website:** [www.esteban-castillo.com](https://www.esteban-castillo.com/)
-* **LinkedIn:** [Your LinkedIn Profile URL]
-* **GitHub:** [Your GitHub Profile URL]
+* **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/esteban-castillo-tello/)
+* **GitHub:** [My GitHub Profile](https://github.com/EstebanCastilloTello)
 
 ---
 *Built with ❤️ by Esteban Castillo.*
