@@ -91,7 +91,7 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
             <p className="hello">
               Hello <span className="wave">👋</span>
             </p>
-            <h2 className="name">I'm Ridwan Ajanaku</h2>
+            <h2 className="name">I'm Esteban Castillo</h2>
             <p className="extraDetails">
               I'm a Frontend Engineer focused on building exceptional,
               performant web applications that scale, turning complex problems
@@ -100,7 +100,7 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
             <div className="resumeContainer">
               <a className="resume" href="/Resume.pdf" target="_blank">
                 <p className="viewCv">
-                  <span>View my resumé</span>
+                  <span>View my resume</span>
                   <span className="arrowIcon">
                     <RightArrowIcon />
                   </span>
@@ -113,7 +113,7 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
           </div>
           <div className="rightHero">
             <img
-              src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1711215109/heron_qdeyx8.png"
+              src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765064123/Foto_Principal_dojnb7.svg"
               alt="Ridwan-ajanaku"
               draggable={false}
             />

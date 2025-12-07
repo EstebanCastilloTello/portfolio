@@ -74,7 +74,7 @@ const Header: React.FunctionComponent<HeaderProps> = () => {
         <div onClick={() => handleNavClick("/")}>
           <div className="logo">
             <img
-              src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1700482039/final_jwalyu.png"
+              src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765065476/Logo_Principal_cobd70.png"
               alt="ridwan ajanaku"
               draggable={false}
             />
@@ -152,7 +152,7 @@ const Header: React.FunctionComponent<HeaderProps> = () => {
         <div onClick={() => handleNavClick("/")}>
           <div className="logo">
             <img
-              src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1700482039/final_jwalyu.png"
+              src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765065476/Logo_Principal_cobd70.png"
               alt="ridwan ajanaku"
               draggable={false}
             />
@@ -186,7 +186,7 @@ const Header: React.FunctionComponent<HeaderProps> = () => {
             Contact me
           </p>
           <a href="/Resume.pdf" target="_blank">
-            <p>Resumé</p>
+            <p>Resume</p>
           </a>
           <button
             className={theme.isDarkmode ? "themeDark" : "theme"}
