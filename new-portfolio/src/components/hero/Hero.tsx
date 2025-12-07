@@ -14,6 +14,7 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
   }, []);
   const isMobile = window.innerWidth <= 820;
   const theme = useContext(ThemeContext);
+  
   return (
     <div className="hero-container">
       <Particles
@@ -92,12 +93,17 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
               Hello <span className="wave">👋</span>
             </p>
             <h2 className="name">I'm Esteban Castillo</h2>
+            
+            {/* --- AQUÍ ESTÁ EL CAMBIO DE PERFIL --- */}
             <p className="extraDetails">
-              I'm a Frontend Engineer focused on building exceptional,
-              performant web applications that scale, turning complex problems
-              into clean, accessible, and user-friendly experiences.
+              I'm a <b>Computer Science Engineer & Product Builder</b> based in Chile. 
+              I bridge the gap between robust <b>backend architecture</b> and strategic <b>product leadership</b>, 
+              building scalable solutions that solve real-world problems from concept to code.
             </p>
+            {/* ------------------------------------- */}
+
             <div className="resumeContainer">
+              {/* Asegúrate de que el archivo Resume.pdf sea el nuevo CV actualizado */}
               <a className="resume" href="/Resume.pdf" target="_blank">
                 <p className="viewCv">
                   <span>View my resume</span>
@@ -114,7 +120,8 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
           <div className="rightHero">
             <img
               src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765064123/Foto_Principal_dojnb7.svg"
-              alt="Ridwan-ajanaku"
+              // CAMBIO PEQUEÑO: Actualicé el ALT para SEO (antes decía el nombre del creador de la plantilla)
+              alt="Esteban Castillo"
               draggable={false}
             />
           </div>

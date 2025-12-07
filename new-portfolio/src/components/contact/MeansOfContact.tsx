@@ -3,7 +3,8 @@ import {
   GmailDarkIcon,
   GmailIcon,
   LinkedInContactIcon,
-  TwitterContactIcon,
+  GithubContactIcon, // <--- CAMBIO AQUÍ: Importamos el icono grande
+
 } from "../../assets/icons/icons";
 import ContactCard from "./ContactCard";
 import "./contact.scss";
@@ -19,22 +20,23 @@ const MeansOfContact: React.FunctionComponent<MeansOfContactProps> = () => {
       icon: theme.isDarkmode ? <GmailDarkIcon /> : <GmailIcon />,
       appText: "Send me an email",
       appDetails: (
-        <a href="mailto:lakes.ajanaku@gmail.com" aria-label="send lakes a mail">
-          lakes.ajanaku@gmail.com
+        <a href="mailto:esteban.castillo@usm.cl" aria-label="send esteban a mail">
+          esteban.castillo@usm.cl
         </a>
       ),
     },
     {
-      icon: <TwitterContactIcon />,
-      appText: "Follow me on Twitter",
+      // Usamos el NUEVO icono grande
+      icon: <GithubContactIcon />, 
+      appText: "Check my code",
       appDetails: (
         <a
-          href="https://twitter.com/lakes__xo_"
+          href="https://github.com/EstebanCastilloTello"
           target="_blank"
           rel="noreferrer"
-          aria-label="follow lakes on twitter"
+          aria-label="follow esteban on github"
         >
-          @lakes__xo_
+          @EstebanCastilloTello
         </a>
       ),
     },
@@ -43,12 +45,12 @@ const MeansOfContact: React.FunctionComponent<MeansOfContactProps> = () => {
       appText: "Connect with me on LinkedIn",
       appDetails: (
         <a
-          href="https://linkedin.com/in/ridwan-ajanaku"
+          href="https://www.linkedin.com/in/esteban-castillo-tello/"
           target="_blank"
           rel="noreferrer"
-          aria-label="connect with Lakes on Linkedin"
+          aria-label="connect with Esteban on Linkedin"
         >
-          Ridwan Ajanaku
+          Esteban Castillo
         </a>
       ),
     },

@@ -11,38 +11,36 @@ const AboutMe: React.FunctionComponent<AboutMeProps> = () => {
     <div className={theme.isDarkmode ? "abtMewrapperDark" : "abtMewrapper"}>
       <div className="abtCont">
         <img
-          src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1711215109/about_wobdfz.png"
-          alt="ridwan ajanaku"
+          // Asegúrate de que esta URL sea tu foto. Si es la misma del Hero, usa esa.
+          src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765121915/Foto_Principal_xoh8ln.png" 
+          alt="Esteban Castillo"
         />
         <div className="details">
-          <AnimatedText
-            text="Meet Ridwan Ajanaku."
-            className={theme.isDarkmode ? "meetDark" : "meet"}
-            once
-          />
+          {/* Agregamos 'notranslate' para proteger tu nombre de traductores automáticos */}
+          <div className="notranslate">
+            <AnimatedText
+              text="Meet Esteban Castillo."
+              className={theme.isDarkmode ? "meetDark" : "meet"}
+              once
+            />
+          </div>
+          
           <p className={theme.isDarkmode ? "deetsTDark" : "deetsT"}>
-            I'm a Frontend Engineer with five (5) years of professional
-            experience, passionate about crafting pixel-perfect,
-            high-performance web applications. I specialize in bringing
-            interfaces to life through thoughtful UI effects, smooth animations,
-            and dynamic user experiences, all while ensuring that every element
-            on the web remains accessible, including for users with
-            disabilities.
+            I'm a <b>Computer Science Engineer</b> nearing graduation from Universidad Técnica Federico Santa María (USM). 
+            Unlike typical developers, I thrive at the intersection of <b>technical architecture</b> and <b>product strategy</b>. 
+            I don't just write code; I design scalable systems and lead teams to solve real-world problems, always bridging the gap between complex engineering and business goals.
           </p>
+
           <p className={theme.isDarkmode ? "deetsTDark" : "deetsT"}>
-            Throughout my career, I’ve built solutions across diverse sectors
-            including gaming, healthcare, and finance. These experiences have
-            strengthened my ability to design inclusive, user-friendly
-            interfaces tailored to different audiences and use cases. I work
-            primarily with tools like React, TypeScript, and Tailwind CSS, and
-            have also developed cross-platform desktop applications using
-            Electron.
+            My journey is defined by <b>entrepreneurship and impact</b>. Currently, I lead <b>PiLands</b>, an AI-driven EdTech startup, 
+            where I act as both Lead Engineer and Product Owner. Previously, I developed software solutions for the <b>Municipality of Valparaíso</b>. 
+            My technical arsenal includes <b>Python, Node.js, TypeScript</b>, and Cloud Infrastructure, always applied with a focus on clean architecture and efficiency.
           </p>
+
           <p className={theme.isDarkmode ? "deetsTDark" : "deetsT"}>
-            When I’m not coding, you’ll probably find me unwinding with a game
-            of FIFA, watching movies, bowling, or spending time with friends and
-            family. I value a balanced life, and those moments away from the
-            screen often inspire creative ideas I bring back into my work.
+            Beyond the screen, I’m driven by a passion for leadership and innovation. 
+            When I'm not architecting backends or planning sprints, you'll find me exploring new business ideas or spending quality time with my family. 
+            I believe technology should have a purpose, and I bring that "purpose-driven" mindset to every project I touch.
           </p>
         </div>
       </div>
