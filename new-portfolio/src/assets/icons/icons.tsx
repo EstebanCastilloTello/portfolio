@@ -1375,3 +1375,40 @@ export const GithubContactIcon = () => {
     </svg>
   );
 };
+// --- AGREGA ESTO AL FINAL DE icons.tsx ---
+
+export const NextIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.37 0 0 5.37 0 12C0 18.63 5.37 24 12 24C18.63 24 24 18.63 24 12C24 5.37 18.63 0 12 0ZM18.75 18.75L13.5 12V6H15V10.5L18.75 15.75V18.75ZM6.75 18H5.25V6H6.75V18ZM18 18.75V18H17.25L12 10.5V18H10.5V6H12L17.25 13.5V6H18.75V18.75Z" fill="black"/></svg>
+);
+
+export const NodeIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0L2.25 5.63V16.88L12 22.5L21.75 16.88V5.63L12 0ZM12 16.5C9.51 16.5 7.5 14.49 7.5 12C7.5 9.51 9.51 7.5 12 7.5C14.49 7.5 16.5 9.51 16.5 12C16.5 14.49 14.49 16.5 12 16.5Z" fill="#339933"/></svg>
+);
+
+export const CSharpIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#239120"/><path d="M10.8 17.2C10.8 17.2 9.2 18.2 7.7 18.2C5 18.2 3.8 16.2 3.8 13.2V10.8C3.8 7.8 5 5.8 7.7 5.8C9.2 5.8 10.8 6.8 10.8 6.8L12.2 4.8C12.2 4.8 10.2 3.2 7.8 3.2C3.2 3.2 1 6.6 1 11V13C1 17.4 3.2 20.8 7.8 20.8C10.2 20.8 12.2 19.2 12.2 19.2L10.8 17.2ZM15.5 8.2V5.8H18.5V8.2H20.9V11.2H18.5V13.6H15.5V11.2H13.1V8.2H15.5Z" fill="white"/></svg>
+);
+
+export const NestIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.64 11.68L11.53 23.79C11.14 24.18 10.51 24.18 10.12 23.79L0.36 14.03C-0.12 13.55 -0.12 12.77 0.36 12.29L3.54 9.11L10.83 16.4L18.42 8.81L13.14 3.53C12.75 3.14 12.75 2.51 13.14 2.12L14.55 0.71C14.94 0.32 15.57 0.32 15.96 0.71L23.64 8.39C24.12 8.87 24.12 9.65 23.64 10.13V11.68Z" fill="#E0234E"/></svg>
+);
+
+export const ExpressIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-9h10v2H7z"/></svg>
+);
+
+export const MysqlIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.37 0 0 5.37 0 12c0 6.63 5.37 12 12 12 6.63 0 12-5.37 12-12 0-6.63-5.37-12-12-12zm6 17h-2v-4h-2v4h-2v-4h-2v4H8v-6h10v6z" fill="#00758F"/></svg>
+);
+
+export const DockerIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 5.25H10.5V8.25H13.5V5.25ZM13.5 9H10.5V12H13.5V9ZM9.75 5.25H6.75V8.25H9.75V5.25ZM9.75 9H6.75V12H9.75V9ZM6 5.25H3V8.25H6V5.25ZM6 9H3V12H6V9ZM22.5 9H19.5V12H22.5V9ZM18.75 9H15.75V12H18.75V9ZM18.75 5.25H15.75V8.25H18.75V5.25ZM24 12.75H22.95C22.75 11.61 21.82 10.74 20.67 10.57V10.5H0V12.75C0 16.48 3.02 19.5 6.75 19.5H12.75C16.48 19.5 19.5 16.48 19.5 12.75H24V12.75Z" fill="#2496ED"/></svg>
+);
+
+export const NginxIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0L2.25 5.63V16.88L12 22.5L21.75 16.88V5.63L12 0ZM12 16.5C9.51 16.5 7.5 14.49 7.5 12C7.5 9.51 9.51 7.5 12 7.5C14.49 7.5 16.5 9.51 16.5 12C16.5 14.49 14.49 16.5 12 16.5Z" fill="#009639"/></svg>
+);
+
+export const LinuxIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2C8 2 6 5 6 9c0 4 2 6 2 9 0 2-2 3-2 3s4 1 6 1 6-1 6-1-2-1-2-3c0-3 2-5 2-9 0-4-2-7-6-7z"/><path d="M8 12s-2 2-2 4 1 3 2 3"/><path d="M16 12s2 2 2 4-1 3-2 3"/><path d="M10.5 8.5A.5.5 0 1 1 10.5 7.5 .5.5 0 0 1 10.5 8.5z"/><path d="M13.5 8.5A.5.5 0 1 1 13.5 7.5 .5.5 0 0 1 13.5 8.5z"/></svg>
+);
