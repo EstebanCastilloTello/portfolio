@@ -9,55 +9,30 @@ interface ProjectsProps {}
 
 export const projects = [
   {
-    name: "Accelbyte",
+    name: "GeoIA",
     description:
-      "AccelByte provides backend-as-a-service tools for game studios to build, scale, and manage live multiplayer games with features like matchmaking, user accounts, and storefronts.",
+      "An AI-powered Virtual Assistant integrated into the Valparaíso Municipality GeoPortal. It optimizes access to complex territorial data for citizens and officials through natural language processing.",
     image:
-      "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1751144584/accelbyte_vxobha.png",
-    url: "https://accelbyte.io/",
-    techStack: ["React", "TypeScript", "Electron", "Go"],
+      "https://res.cloudinary.com/dtstm7jkv/image/upload/c_fill,w_710,h_499/v1765247177/GeoIA_2_ajm5uh.png",
+    url: "https://geoportal-sistema-de-informacion-geografica-munivalpo.hub.arcgis.com/pages/geo-ia",
+    techStack: ["Python", "HTML", "JavaScript", "CSS", "AI Integration"],
   },
   {
-    name: "Cuvris",
+    name: "PiLands",
     description:
-      "Cuvris is a health compliance platform that helps organizations stay aligned with regulatory standards by simplifying compliance workflows, risk tracking, and documentation.",
+      "An AI-powered EdTech ecosystem where students build a virtual village by mastering math. Features adaptive difficulty adjustment, instant feedback, and seamless real-time synchronization between a Unity game client and a teacher's analytics dashboard.",
     image:
-      "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1751144584/cuvris_koapmq.png",
-    url: "https://www.cuvris.com/",
+      "https://res.cloudinary.com/dtstm7jkv/image/upload/c_fill,w_710,h_499/v1765248840/Pilands_pm2u9q.png",
+    url: "https://pilands.feriadesoftware.cl/",
     techStack: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Node.js",
-      "Prisma",
-      "PostgreSQL",
-      "Azure",
+      "Unity (C#)",
+      "Firebase",
+      "Google Cloud",
+      "AI Integration",
+      "Product Owner",
+      "Innovation"
     ],
-  },
-  {
-    name: "SunFi",
-    description:
-      "SunFi is a fintech platform that helps users access and finance clean solar energy solutions through tailored plans and trusted energy provider matching.",
-    image:
-      "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1751144584/sunfi_oohibx.png",
-    url: "https://www.sunfi.co/",
-    techStack: ["React", "Sass", "Javascript", "Jenkins"],
-  },
-  {
-    name: "Github Finds",
-    description:
-      "GitHub Finds is a personal project that allows users to discover GitHub users or organizations — with shareable filtered links.",
-    image:
-      "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1751144584/gtsearch_qgdiaq.png",
-    url: "https://githubfinds.netlify.app/",
-    techStack: [
-      "React",
-      "Typescript",
-      "Tailwind CSSS",
-      "GitHub API",
-      "Netlify",
-    ],
-  },
+  }
 ];
 
 const Projects: React.FunctionComponent<ProjectsProps> = () => {

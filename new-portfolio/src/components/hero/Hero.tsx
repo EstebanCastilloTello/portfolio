@@ -120,7 +120,6 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
           <div className="rightHero">
             <img
               src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765064123/Foto_Principal_dojnb7.svg"
-              // CAMBIO PEQUEÑO: Actualicé el ALT para SEO (antes decía el nombre del creador de la plantilla)
               alt="Esteban Castillo"
               draggable={false}
             />

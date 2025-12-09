@@ -24,13 +24,13 @@ const PageHero: React.FunctionComponent<PageHeroProps> = ({
     >
       {theme.isDarkmode && (
         <img
-          src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1701866485/phero_lnil62.png"
+          src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765249468/phero_lnil62_yifjx1.png"
           alt="bg"
         />
       )}
       {!theme.isDarkmode && (
         <img
-          src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1700577159/Vectorbg_q6nt9c.png"
+          src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765249468/Vectorbg_q6nt9c_egzndk.png"
           alt="bg"
         />
       )}

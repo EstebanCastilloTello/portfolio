@@ -90,7 +90,7 @@ const Skills: React.FunctionComponent<SkillsProps> = () => {
   return (
     <div className={theme.isDarkmode ? "skillscontainerDark" : "skillscontainer"}>
       <div className="skillsWrapper">
-        <SectionHeading sectionName="Habilidades Técnicas" />
+        <SectionHeading sectionName="Technical Skills" />
         
         <div className="flexSkills">
           

@@ -11,7 +11,6 @@ const AboutMe: React.FunctionComponent<AboutMeProps> = () => {
     <div className={theme.isDarkmode ? "abtMewrapperDark" : "abtMewrapper"}>
       <div className="abtCont">
         <img
-          // Asegúrate de que esta URL sea tu foto. Si es la misma del Hero, usa esa.
           src="https://res.cloudinary.com/dtstm7jkv/image/upload/v1765122286/Foto_Principal_1_qqxv2r.png" 
           alt="Esteban Castillo"
         />
